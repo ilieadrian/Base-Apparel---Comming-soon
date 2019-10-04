@@ -1,0 +1,14 @@
+{
+  "name": "work",
+  "version": "1.0.0",
+  "description": "FrontEndmentor Challenge",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Ilie Adrian",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

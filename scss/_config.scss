@@ -1,0 +1,42 @@
+$desktop-width: 1440px;
+$primary-color: hsl(0, 36%, 70%);
+$primary-color-strong: hsl(0, 93%, 68%);
+$neutral-color: hsl(0, 6%, 24%);
+$primary-gradient: linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(0, 100%, 98%) 100%);
+$secondary-gradient: linear-gradient(135deg, hsl(0, 80%, 86%) 0%, hsl(0, 74%, 74%) 100%);
+
+@mixin easeOut {
+    transition: all 0.5s ease-out;
+}
+
+// Media Query Mixins
+@mixin mediaXSmall {
+    @media screen and (max-width: 360px) {
+        @content;
+    }
+}
+
+
+@mixin mediaSmall {
+    @media screen and (max-width: 500px) {
+        @content;
+    }
+}
+
+@mixin mediaIntermediate {
+    @media screen and (max-width: 600px) {
+        @content;
+    }
+}
+
+@mixin mediaTablet {
+    @media screen and (max-width: 880px) {
+        @content;
+    }
+}
+
+@mixin mediaSmallComputer {
+    @media screen and (max-width: 1180px) {
+        @content;
+    }
+}
